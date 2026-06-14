@@ -33,9 +33,13 @@ def hour_bucket(hour: int) -> int:
 
 
 def build(data_dir: str = ".") -> dict:
-    files = sorted(glob.glob(os.path.join(data_dir, "beds_*.csv")))
+    # data/ 바로 밑 + data/2026-06/ 같은 월별 하위폴더까지 모두 탐색
+    files = sorted(set(
+        glob.glob(os.path.join(data_dir, "**", "beds_*.csv"), recursive=True)
+        + glob.glob(os.path.join(data_dir, "beds_*.csv"))
+    ))
     if not files:
-        raise SystemExit(f"beds_*.csv 를 찾지 못함: {os.path.abspath(data_dir)}")
+        raise SystemExit(f"beds_*.csv 를 찾지 못함(하위폴더 포함): {os.path.abspath(data_dir)}")
 
     frames = []
     for f in files:
