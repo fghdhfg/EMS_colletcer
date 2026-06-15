@@ -19,7 +19,7 @@ from datetime import datetime, timezone
 
 from fire_bigdata import get_records, EMS_INCIDENTS, total_count
 
-SAMPLE_PAGES = 100     # 100페이지 × 100건 = 최근 1만 건 표본
+SAMPLE_PAGES = 15      # 100 → 15 (1500건이면 평균·비율엔 충분)
 PAGE_SIZE = 100
 OUT_PATH = os.path.join("data", "platform_summary.json")
 
