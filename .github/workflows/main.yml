@@ -43,6 +43,21 @@ jobs:
             echo "build_saturation_profile.py 없음 → 프로파일 생성 스킵 (수집은 정상)"
           fi
 
+      # ── 부가: 소방 빅데이터 플랫폼 표본 요약 (하루 1회, UTC 00시 / 수동실행 시 항상) ──
+      - name: 플랫폼 표본 요약 생성
+        continue-on-error: true
+        env:
+          BIGDATA119_KEY: ${{ secrets.BIGDATA119_KEY }}
+        run: |
+          if [ "${{ github.event_name }}" != "workflow_dispatch" ] && [ "$(date -u +%H)" != "00" ]; then
+            echo "이 시간대는 플랫폼 요약 스킵 (하루 1회: UTC 00시 또는 수동실행)"; exit 0
+          fi
+          if [ -f build_platform_summary.py ]; then
+            python build_platform_summary.py
+          else
+            echo "build_platform_summary.py 없음 → 스킵"
+          fi
+
       - name: 결과 커밋 & 푸시
         run: |
           git config user.name "er-bed-bot"
