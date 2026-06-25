@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25 01:32:13",
+  "generated_at": "2026-06-25 06:11:15",
   "source_files": [
     "beds_20260612.csv",
     "beds_20260613.csv",
@@ -16,16 +16,16 @@
     "beds_20260624.csv",
     "beds_20260625.csv"
   ],
-  "n_snapshots": 100,
+  "n_snapshots": 101,
   "date_range": [
     "2026-06-12 11:08",
-    "2026-06-25 10:32"
+    "2026-06-25 15:11"
   ],
   "bucket_def": "dawn=0-6, morning=6-12, afternoon=12-18, night=18-24",
   "hospitals": {
     "A1100001": {
       "name": "경희대학교병원",
-      "n": 100,
+      "n": 101,
       "overall_rate": 0.0,
       "buckets": {
         "dawn": {
@@ -37,7 +37,7 @@
           "rate": 0.0
         },
         "afternoon": {
-          "n": 18,
+          "n": 19,
           "rate": 0.0
         },
         "night": {
@@ -48,7 +48,7 @@
     },
     "A1100002": {
       "name": "건국대학교병원",
-      "n": 100,
+      "n": 101,
       "overall_rate": 0.0,
       "buckets": {
         "dawn": {
@@ -60,7 +60,7 @@
           "rate": 0.0
         },
         "afternoon": {
-          "n": 18,
+          "n": 19,
           "rate": 0.0
         },
         "night": {
@@ -71,306 +71,7 @@
     },
     "A1100003": {
       "name": "중앙대학교병원",
-      "n": 100,
-      "overall_rate": 0.02,
-      "buckets": {
-        "dawn": {
-          "n": 29,
-          "rate": 0.0
-        },
-        "morning": {
-          "n": 33,
-          "rate": 0.0
-        },
-        "afternoon": {
-          "n": 18,
-          "rate": 0.056
-        },
-        "night": {
-          "n": 20,
-          "rate": 0.05
-        }
-      }
-    },
-    "A1100004": {
-      "name": "순천향대학교부속서울병원",
-      "n": 100,
-      "overall_rate": 0.01,
-      "buckets": {
-        "dawn": {
-          "n": 29,
-          "rate": 0.0
-        },
-        "morning": {
-          "n": 33,
-          "rate": 0.0
-        },
-        "afternoon": {
-          "n": 18,
-          "rate": 0.056
-        },
-        "night": {
-          "n": 20,
-          "rate": 0.0
-        }
-      }
-    },
-    "A1100005": {
-      "name": "이화여자대학교의과대학부속목동병원",
-      "n": 100,
-      "overall_rate": 0.01,
-      "buckets": {
-        "dawn": {
-          "n": 29,
-          "rate": 0.0
-        },
-        "morning": {
-          "n": 33,
-          "rate": 0.0
-        },
-        "afternoon": {
-          "n": 18,
-          "rate": 0.056
-        },
-        "night": {
-          "n": 20,
-          "rate": 0.0
-        }
-      }
-    },
-    "A1100006": {
-      "name": "강북삼성병원",
-      "n": 100,
-      "overall_rate": 0.11,
-      "buckets": {
-        "dawn": {
-          "n": 29,
-          "rate": 0.069
-        },
-        "morning": {
-          "n": 33,
-          "rate": 0.0
-        },
-        "afternoon": {
-          "n": 18,
-          "rate": 0.278
-        },
-        "night": {
-          "n": 20,
-          "rate": 0.2
-        }
-      }
-    },
-    "A1100007": {
-      "name": "연세대학교의과대학세브란스병원",
-      "n": 100,
-      "overall_rate": 0.13,
-      "buckets": {
-        "dawn": {
-          "n": 29,
-          "rate": 0.034
-        },
-        "morning": {
-          "n": 33,
-          "rate": 0.03
-        },
-        "afternoon": {
-          "n": 18,
-          "rate": 0.167
-        },
-        "night": {
-          "n": 20,
-          "rate": 0.4
-        }
-      }
-    },
-    "A1100008": {
-      "name": "학교법인고려중앙학원고려대학교의과대학부속병원(안암병원)",
-      "n": 100,
-      "overall_rate": 0.0,
-      "buckets": {
-        "dawn": {
-          "n": 29,
-          "rate": 0.0
-        },
-        "morning": {
-          "n": 33,
-          "rate": 0.0
-        },
-        "afternoon": {
-          "n": 18,
-          "rate": 0.0
-        },
-        "night": {
-          "n": 20,
-          "rate": 0.0
-        }
-      }
-    },
-    "A1100009": {
-      "name": "재단법인아산사회복지재단서울아산병원",
-      "n": 100,
-      "overall_rate": 0.26,
-      "buckets": {
-        "dawn": {
-          "n": 29,
-          "rate": 0.069
-        },
-        "morning": {
-          "n": 33,
-          "rate": 0.152
-        },
-        "afternoon": {
-          "n": 18,
-          "rate": 0.722
-        },
-        "night": {
-          "n": 20,
-          "rate": 0.3
-        }
-      }
-    },
-    "A1100010": {
-      "name": "삼성서울병원",
-      "n": 100,
-      "overall_rate": 0.88,
-      "buckets": {
-        "dawn": {
-          "n": 29,
-          "rate": 0.759
-        },
-        "morning": {
-          "n": 33,
-          "rate": 0.879
-        },
-        "afternoon": {
-          "n": 18,
-          "rate": 1.0
-        },
-        "night": {
-          "n": 20,
-          "rate": 0.95
-        }
-      }
-    },
-    "A1100011": {
-      "name": "가톨릭대학교여의도성모병원",
-      "n": 100,
-      "overall_rate": 0.02,
-      "buckets": {
-        "dawn": {
-          "n": 29,
-          "rate": 0.0
-        },
-        "morning": {
-          "n": 33,
-          "rate": 0.0
-        },
-        "afternoon": {
-          "n": 18,
-          "rate": 0.111
-        },
-        "night": {
-          "n": 20,
-          "rate": 0.0
-        }
-      }
-    },
-    "A1100012": {
-      "name": "학교법인가톨릭학원가톨릭대학교서울성모병원",
-      "n": 100,
-      "overall_rate": 0.47,
-      "buckets": {
-        "dawn": {
-          "n": 29,
-          "rate": 0.276
-        },
-        "morning": {
-          "n": 33,
-          "rate": 0.515
-        },
-        "afternoon": {
-          "n": 18,
-          "rate": 0.722
-        },
-        "night": {
-          "n": 20,
-          "rate": 0.45
-        }
-      }
-    },
-    "A1100013": {
-      "name": "한양대학교병원",
-      "n": 100,
-      "overall_rate": 0.0,
-      "buckets": {
-        "dawn": {
-          "n": 29,
-          "rate": 0.0
-        },
-        "morning": {
-          "n": 33,
-          "rate": 0.0
-        },
-        "afternoon": {
-          "n": 18,
-          "rate": 0.0
-        },
-        "night": {
-          "n": 20,
-          "rate": 0.0
-        }
-      }
-    },
-    "A1100014": {
-      "name": "고려대학교의과대학부속구로병원",
-      "n": 100,
-      "overall_rate": 0.05,
-      "buckets": {
-        "dawn": {
-          "n": 29,
-          "rate": 0.0
-        },
-        "morning": {
-          "n": 33,
-          "rate": 0.0
-        },
-        "afternoon": {
-          "n": 18,
-          "rate": 0.222
-        },
-        "night": {
-          "n": 20,
-          "rate": 0.05
-        }
-      }
-    },
-    "A1100015": {
-      "name": "연세대학교의과대학강남세브란스병원",
-      "n": 100,
-      "overall_rate": 0.13,
-      "buckets": {
-        "dawn": {
-          "n": 29,
-          "rate": 0.034
-        },
-        "morning": {
-          "n": 33,
-          "rate": 0.03
-        },
-        "afternoon": {
-          "n": 18,
-          "rate": 0.556
-        },
-        "night": {
-          "n": 20,
-          "rate": 0.05
-        }
-      }
-    },
-    "A1100016": {
-      "name": "인제대학교상계백병원",
-      "n": 100,
+      "n": 101,
       "overall_rate": 0.03,
       "buckets": {
         "dawn": {
@@ -382,64 +83,18 @@
           "rate": 0.0
         },
         "afternoon": {
-          "n": 18,
-          "rate": 0.167
+          "n": 19,
+          "rate": 0.105
         },
         "night": {
           "n": 20,
-          "rate": 0.0
+          "rate": 0.05
         }
       }
     },
-    "A1100017": {
-      "name": "서울대학교병원",
-      "n": 100,
-      "overall_rate": 0.96,
-      "buckets": {
-        "dawn": {
-          "n": 29,
-          "rate": 1.0
-        },
-        "morning": {
-          "n": 33,
-          "rate": 1.0
-        },
-        "afternoon": {
-          "n": 18,
-          "rate": 0.889
-        },
-        "night": {
-          "n": 20,
-          "rate": 0.9
-        }
-      }
-    },
-    "A1100019": {
-      "name": "홍익병원",
-      "n": 100,
-      "overall_rate": 0.02,
-      "buckets": {
-        "dawn": {
-          "n": 29,
-          "rate": 0.0
-        },
-        "morning": {
-          "n": 33,
-          "rate": 0.03
-        },
-        "afternoon": {
-          "n": 18,
-          "rate": 0.056
-        },
-        "night": {
-          "n": 20,
-          "rate": 0.0
-        }
-      }
-    },
-    "A1100020": {
-      "name": "의료법인한전의료재단한일병원",
-      "n": 100,
+    "A1100004": {
+      "name": "순천향대학교부속서울병원",
+      "n": 101,
       "overall_rate": 0.01,
       "buckets": {
         "dawn": {
@@ -451,8 +106,8 @@
           "rate": 0.0
         },
         "afternoon": {
-          "n": 18,
-          "rate": 0.056
+          "n": 19,
+          "rate": 0.053
         },
         "night": {
           "n": 20,
@@ -460,9 +115,78 @@
         }
       }
     },
-    "A1100021": {
-      "name": "삼육서울병원",
-      "n": 100,
+    "A1100005": {
+      "name": "이화여자대학교의과대학부속목동병원",
+      "n": 101,
+      "overall_rate": 0.01,
+      "buckets": {
+        "dawn": {
+          "n": 29,
+          "rate": 0.0
+        },
+        "morning": {
+          "n": 33,
+          "rate": 0.0
+        },
+        "afternoon": {
+          "n": 19,
+          "rate": 0.053
+        },
+        "night": {
+          "n": 20,
+          "rate": 0.0
+        }
+      }
+    },
+    "A1100006": {
+      "name": "강북삼성병원",
+      "n": 101,
+      "overall_rate": 0.109,
+      "buckets": {
+        "dawn": {
+          "n": 29,
+          "rate": 0.069
+        },
+        "morning": {
+          "n": 33,
+          "rate": 0.0
+        },
+        "afternoon": {
+          "n": 19,
+          "rate": 0.263
+        },
+        "night": {
+          "n": 20,
+          "rate": 0.2
+        }
+      }
+    },
+    "A1100007": {
+      "name": "연세대학교의과대학세브란스병원",
+      "n": 101,
+      "overall_rate": 0.139,
+      "buckets": {
+        "dawn": {
+          "n": 29,
+          "rate": 0.034
+        },
+        "morning": {
+          "n": 33,
+          "rate": 0.03
+        },
+        "afternoon": {
+          "n": 19,
+          "rate": 0.211
+        },
+        "night": {
+          "n": 20,
+          "rate": 0.4
+        }
+      }
+    },
+    "A1100008": {
+      "name": "학교법인고려중앙학원고려대학교의과대학부속병원(안암병원)",
+      "n": 101,
       "overall_rate": 0.0,
       "buckets": {
         "dawn": {
@@ -474,7 +198,283 @@
           "rate": 0.0
         },
         "afternoon": {
-          "n": 18,
+          "n": 19,
+          "rate": 0.0
+        },
+        "night": {
+          "n": 20,
+          "rate": 0.0
+        }
+      }
+    },
+    "A1100009": {
+      "name": "재단법인아산사회복지재단서울아산병원",
+      "n": 101,
+      "overall_rate": 0.267,
+      "buckets": {
+        "dawn": {
+          "n": 29,
+          "rate": 0.069
+        },
+        "morning": {
+          "n": 33,
+          "rate": 0.152
+        },
+        "afternoon": {
+          "n": 19,
+          "rate": 0.737
+        },
+        "night": {
+          "n": 20,
+          "rate": 0.3
+        }
+      }
+    },
+    "A1100010": {
+      "name": "삼성서울병원",
+      "n": 101,
+      "overall_rate": 0.881,
+      "buckets": {
+        "dawn": {
+          "n": 29,
+          "rate": 0.759
+        },
+        "morning": {
+          "n": 33,
+          "rate": 0.879
+        },
+        "afternoon": {
+          "n": 19,
+          "rate": 1.0
+        },
+        "night": {
+          "n": 20,
+          "rate": 0.95
+        }
+      }
+    },
+    "A1100011": {
+      "name": "가톨릭대학교여의도성모병원",
+      "n": 101,
+      "overall_rate": 0.02,
+      "buckets": {
+        "dawn": {
+          "n": 29,
+          "rate": 0.0
+        },
+        "morning": {
+          "n": 33,
+          "rate": 0.0
+        },
+        "afternoon": {
+          "n": 19,
+          "rate": 0.105
+        },
+        "night": {
+          "n": 20,
+          "rate": 0.0
+        }
+      }
+    },
+    "A1100012": {
+      "name": "학교법인가톨릭학원가톨릭대학교서울성모병원",
+      "n": 101,
+      "overall_rate": 0.475,
+      "buckets": {
+        "dawn": {
+          "n": 29,
+          "rate": 0.276
+        },
+        "morning": {
+          "n": 33,
+          "rate": 0.515
+        },
+        "afternoon": {
+          "n": 19,
+          "rate": 0.737
+        },
+        "night": {
+          "n": 20,
+          "rate": 0.45
+        }
+      }
+    },
+    "A1100013": {
+      "name": "한양대학교병원",
+      "n": 101,
+      "overall_rate": 0.0,
+      "buckets": {
+        "dawn": {
+          "n": 29,
+          "rate": 0.0
+        },
+        "morning": {
+          "n": 33,
+          "rate": 0.0
+        },
+        "afternoon": {
+          "n": 19,
+          "rate": 0.0
+        },
+        "night": {
+          "n": 20,
+          "rate": 0.0
+        }
+      }
+    },
+    "A1100014": {
+      "name": "고려대학교의과대학부속구로병원",
+      "n": 101,
+      "overall_rate": 0.05,
+      "buckets": {
+        "dawn": {
+          "n": 29,
+          "rate": 0.0
+        },
+        "morning": {
+          "n": 33,
+          "rate": 0.0
+        },
+        "afternoon": {
+          "n": 19,
+          "rate": 0.211
+        },
+        "night": {
+          "n": 20,
+          "rate": 0.05
+        }
+      }
+    },
+    "A1100015": {
+      "name": "연세대학교의과대학강남세브란스병원",
+      "n": 101,
+      "overall_rate": 0.129,
+      "buckets": {
+        "dawn": {
+          "n": 29,
+          "rate": 0.034
+        },
+        "morning": {
+          "n": 33,
+          "rate": 0.03
+        },
+        "afternoon": {
+          "n": 19,
+          "rate": 0.526
+        },
+        "night": {
+          "n": 20,
+          "rate": 0.05
+        }
+      }
+    },
+    "A1100016": {
+      "name": "인제대학교상계백병원",
+      "n": 101,
+      "overall_rate": 0.03,
+      "buckets": {
+        "dawn": {
+          "n": 29,
+          "rate": 0.0
+        },
+        "morning": {
+          "n": 33,
+          "rate": 0.0
+        },
+        "afternoon": {
+          "n": 19,
+          "rate": 0.158
+        },
+        "night": {
+          "n": 20,
+          "rate": 0.0
+        }
+      }
+    },
+    "A1100017": {
+      "name": "서울대학교병원",
+      "n": 101,
+      "overall_rate": 0.96,
+      "buckets": {
+        "dawn": {
+          "n": 29,
+          "rate": 1.0
+        },
+        "morning": {
+          "n": 33,
+          "rate": 1.0
+        },
+        "afternoon": {
+          "n": 19,
+          "rate": 0.895
+        },
+        "night": {
+          "n": 20,
+          "rate": 0.9
+        }
+      }
+    },
+    "A1100019": {
+      "name": "홍익병원",
+      "n": 101,
+      "overall_rate": 0.02,
+      "buckets": {
+        "dawn": {
+          "n": 29,
+          "rate": 0.0
+        },
+        "morning": {
+          "n": 33,
+          "rate": 0.03
+        },
+        "afternoon": {
+          "n": 19,
+          "rate": 0.053
+        },
+        "night": {
+          "n": 20,
+          "rate": 0.0
+        }
+      }
+    },
+    "A1100020": {
+      "name": "의료법인한전의료재단한일병원",
+      "n": 101,
+      "overall_rate": 0.01,
+      "buckets": {
+        "dawn": {
+          "n": 29,
+          "rate": 0.0
+        },
+        "morning": {
+          "n": 33,
+          "rate": 0.0
+        },
+        "afternoon": {
+          "n": 19,
+          "rate": 0.053
+        },
+        "night": {
+          "n": 20,
+          "rate": 0.0
+        }
+      }
+    },
+    "A1100021": {
+      "name": "삼육서울병원",
+      "n": 101,
+      "overall_rate": 0.0,
+      "buckets": {
+        "dawn": {
+          "n": 29,
+          "rate": 0.0
+        },
+        "morning": {
+          "n": 33,
+          "rate": 0.0
+        },
+        "afternoon": {
+          "n": 19,
           "rate": 0.0
         },
         "night": {
@@ -485,7 +485,7 @@
     },
     "A1100022": {
       "name": "서울특별시동부병원",
-      "n": 100,
+      "n": 101,
       "overall_rate": 0.0,
       "buckets": {
         "dawn": {
@@ -497,7 +497,7 @@
           "rate": 0.0
         },
         "afternoon": {
-          "n": 18,
+          "n": 19,
           "rate": 0.0
         },
         "night": {
@@ -508,7 +508,7 @@
     },
     "A1100023": {
       "name": "의료법인청구성심병원",
-      "n": 100,
+      "n": 101,
       "overall_rate": 0.0,
       "buckets": {
         "dawn": {
@@ -520,7 +520,7 @@
           "rate": 0.0
         },
         "afternoon": {
-          "n": 18,
+          "n": 19,
           "rate": 0.0
         },
         "night": {
@@ -531,7 +531,7 @@
     },
     "A1100024": {
       "name": "명지성모병원",
-      "n": 100,
+      "n": 101,
       "overall_rate": 0.0,
       "buckets": {
         "dawn": {
@@ -543,7 +543,7 @@
           "rate": 0.0
         },
         "afternoon": {
-          "n": 18,
+          "n": 19,
           "rate": 0.0
         },
         "night": {
@@ -554,7 +554,7 @@
     },
     "A1100025": {
       "name": "의료법인동신의료재단동신병원",
-      "n": 100,
+      "n": 101,
       "overall_rate": 0.0,
       "buckets": {
         "dawn": {
@@ -566,7 +566,7 @@
           "rate": 0.0
         },
         "afternoon": {
-          "n": 18,
+          "n": 19,
           "rate": 0.0
         },
         "night": {
@@ -577,7 +577,7 @@
     },
     "A1100026": {
       "name": "구로성심병원",
-      "n": 100,
+      "n": 101,
       "overall_rate": 0.0,
       "buckets": {
         "dawn": {
@@ -589,7 +589,7 @@
           "rate": 0.0
         },
         "afternoon": {
-          "n": 18,
+          "n": 19,
           "rate": 0.0
         },
         "night": {
@@ -600,7 +600,7 @@
     },
     "A1100027": {
       "name": "한국원자력의학원원자력병원",
-      "n": 100,
+      "n": 101,
       "overall_rate": 0.0,
       "buckets": {
         "dawn": {
@@ -612,7 +612,7 @@
           "rate": 0.0
         },
         "afternoon": {
-          "n": 18,
+          "n": 19,
           "rate": 0.0
         },
         "night": {
@@ -623,7 +623,7 @@
     },
     "A1100028": {
       "name": "성심의료재단강동성심병원",
-      "n": 100,
+      "n": 101,
       "overall_rate": 0.0,
       "buckets": {
         "dawn": {
@@ -635,7 +635,7 @@
           "rate": 0.0
         },
         "afternoon": {
-          "n": 18,
+          "n": 19,
           "rate": 0.0
         },
         "night": {
@@ -646,7 +646,7 @@
     },
     "A1100029": {
       "name": "서울적십자병원",
-      "n": 100,
+      "n": 101,
       "overall_rate": 0.0,
       "buckets": {
         "dawn": {
@@ -658,7 +658,7 @@
           "rate": 0.0
         },
         "afternoon": {
-          "n": 18,
+          "n": 19,
           "rate": 0.0
         },
         "night": {
@@ -669,7 +669,7 @@
     },
     "A1100032": {
       "name": "세란병원",
-      "n": 100,
+      "n": 101,
       "overall_rate": 0.0,
       "buckets": {
         "dawn": {
@@ -681,7 +681,7 @@
           "rate": 0.0
         },
         "afternoon": {
-          "n": 18,
+          "n": 19,
           "rate": 0.0
         },
         "night": {
@@ -692,7 +692,7 @@
     },
     "A1100035": {
       "name": "서울특별시서울의료원",
-      "n": 100,
+      "n": 101,
       "overall_rate": 0.02,
       "buckets": {
         "dawn": {
@@ -704,7 +704,7 @@
           "rate": 0.0
         },
         "afternoon": {
-          "n": 18,
+          "n": 19,
           "rate": 0.0
         },
         "night": {
@@ -715,7 +715,7 @@
     },
     "A1100036": {
       "name": "부민병원",
-      "n": 100,
+      "n": 101,
       "overall_rate": 0.0,
       "buckets": {
         "dawn": {
@@ -727,7 +727,7 @@
           "rate": 0.0
         },
         "afternoon": {
-          "n": 18,
+          "n": 19,
           "rate": 0.0
         },
         "night": {
@@ -738,7 +738,7 @@
     },
     "A1100037": {
       "name": "대림성모병원",
-      "n": 100,
+      "n": 101,
       "overall_rate": 0.0,
       "buckets": {
         "dawn": {
@@ -750,7 +750,7 @@
           "rate": 0.0
         },
         "afternoon": {
-          "n": 18,
+          "n": 19,
           "rate": 0.0
         },
         "night": {
@@ -761,7 +761,7 @@
     },
     "A1100039": {
       "name": "경찰병원",
-      "n": 100,
+      "n": 101,
       "overall_rate": 0.02,
       "buckets": {
         "dawn": {
@@ -773,8 +773,8 @@
           "rate": 0.03
         },
         "afternoon": {
-          "n": 18,
-          "rate": 0.056
+          "n": 19,
+          "rate": 0.053
         },
         "night": {
           "n": 20,
@@ -784,7 +784,7 @@
     },
     "A1100040": {
       "name": "서울특별시보라매병원",
-      "n": 100,
+      "n": 101,
       "overall_rate": 0.0,
       "buckets": {
         "dawn": {
@@ -796,7 +796,7 @@
           "rate": 0.0
         },
         "afternoon": {
-          "n": 18,
+          "n": 19,
           "rate": 0.0
         },
         "night": {
@@ -807,7 +807,7 @@
     },
     "A1100041": {
       "name": "의료법인서울효천의료재단에이치플러스양지병원",
-      "n": 100,
+      "n": 101,
       "overall_rate": 0.02,
       "buckets": {
         "dawn": {
@@ -819,7 +819,7 @@
           "rate": 0.0
         },
         "afternoon": {
-          "n": 18,
+          "n": 19,
           "rate": 0.0
         },
         "night": {
@@ -830,8 +830,8 @@
     },
     "A1100043": {
       "name": "강동경희대학교병원",
-      "n": 100,
-      "overall_rate": 0.09,
+      "n": 101,
+      "overall_rate": 0.089,
       "buckets": {
         "dawn": {
           "n": 29,
@@ -842,8 +842,8 @@
           "rate": 0.0
         },
         "afternoon": {
-          "n": 18,
-          "rate": 0.222
+          "n": 19,
+          "rate": 0.211
         },
         "night": {
           "n": 20,
@@ -853,8 +853,8 @@
     },
     "A1100044": {
       "name": "녹색병원",
-      "n": 100,
-      "overall_rate": 0.1,
+      "n": 101,
+      "overall_rate": 0.099,
       "buckets": {
         "dawn": {
           "n": 29,
@@ -865,8 +865,8 @@
           "rate": 0.03
         },
         "afternoon": {
-          "n": 18,
-          "rate": 0.167
+          "n": 19,
+          "rate": 0.158
         },
         "night": {
           "n": 20,
@@ -876,7 +876,7 @@
     },
     "A1100045": {
       "name": "씨엠병원",
-      "n": 100,
+      "n": 101,
       "overall_rate": 0.0,
       "buckets": {
         "dawn": {
@@ -888,7 +888,7 @@
           "rate": 0.0
         },
         "afternoon": {
-          "n": 18,
+          "n": 19,
           "rate": 0.0
         },
         "night": {
@@ -899,7 +899,7 @@
     },
     "A1100048": {
       "name": "노원을지대학교병원",
-      "n": 100,
+      "n": 101,
       "overall_rate": 0.0,
       "buckets": {
         "dawn": {
@@ -911,7 +911,7 @@
           "rate": 0.0
         },
         "afternoon": {
-          "n": 18,
+          "n": 19,
           "rate": 0.0
         },
         "night": {
@@ -922,7 +922,7 @@
     },
     "A1100049": {
       "name": "희명병원",
-      "n": 100,
+      "n": 101,
       "overall_rate": 0.0,
       "buckets": {
         "dawn": {
@@ -934,7 +934,7 @@
           "rate": 0.0
         },
         "afternoon": {
-          "n": 18,
+          "n": 19,
           "rate": 0.0
         },
         "night": {
@@ -945,7 +945,7 @@
     },
     "A1100050": {
       "name": "서울성심병원",
-      "n": 100,
+      "n": 101,
       "overall_rate": 0.0,
       "buckets": {
         "dawn": {
@@ -957,7 +957,7 @@
           "rate": 0.0
         },
         "afternoon": {
-          "n": 18,
+          "n": 19,
           "rate": 0.0
         },
         "night": {
@@ -968,7 +968,7 @@
     },
     "A1100051": {
       "name": "혜민병원",
-      "n": 100,
+      "n": 101,
       "overall_rate": 0.0,
       "buckets": {
         "dawn": {
@@ -980,7 +980,7 @@
           "rate": 0.0
         },
         "afternoon": {
-          "n": 18,
+          "n": 19,
           "rate": 0.0
         },
         "night": {
@@ -991,7 +991,7 @@
     },
     "A1100052": {
       "name": "국립중앙의료원",
-      "n": 100,
+      "n": 101,
       "overall_rate": 0.0,
       "buckets": {
         "dawn": {
@@ -1003,7 +1003,7 @@
           "rate": 0.0
         },
         "afternoon": {
-          "n": 18,
+          "n": 19,
           "rate": 0.0
         },
         "night": {
@@ -1014,7 +1014,7 @@
     },
     "A1100053": {
       "name": "한국보훈복지의료공단중앙보훈병원",
-      "n": 100,
+      "n": 101,
       "overall_rate": 0.0,
       "buckets": {
         "dawn": {
@@ -1026,7 +1026,7 @@
           "rate": 0.0
         },
         "afternoon": {
-          "n": 18,
+          "n": 19,
           "rate": 0.0
         },
         "night": {
@@ -1037,7 +1037,7 @@
     },
     "A1100054": {
       "name": "성애의료재단성애병원",
-      "n": 100,
+      "n": 101,
       "overall_rate": 0.0,
       "buckets": {
         "dawn": {
@@ -1049,7 +1049,7 @@
           "rate": 0.0
         },
         "afternoon": {
-          "n": 18,
+          "n": 19,
           "rate": 0.0
         },
         "night": {
@@ -1060,7 +1060,7 @@
     },
     "A1100055": {
       "name": "한림대학교강남성심병원",
-      "n": 100,
+      "n": 101,
       "overall_rate": 0.0,
       "buckets": {
         "dawn": {
@@ -1072,7 +1072,7 @@
           "rate": 0.0
         },
         "afternoon": {
-          "n": 18,
+          "n": 19,
           "rate": 0.0
         },
         "night": {
@@ -1083,7 +1083,7 @@
     },
     "A1100075": {
       "name": "의료법인풍산의료재단동부제일병원",
-      "n": 100,
+      "n": 101,
       "overall_rate": 0.0,
       "buckets": {
         "dawn": {
@@ -1095,7 +1095,7 @@
           "rate": 0.0
         },
         "afternoon": {
-          "n": 18,
+          "n": 19,
           "rate": 0.0
         },
         "night": {
@@ -1106,7 +1106,7 @@
     },
     "A1100223": {
       "name": "서울특별시서남병원",
-      "n": 100,
+      "n": 101,
       "overall_rate": 0.0,
       "buckets": {
         "dawn": {
@@ -1118,7 +1118,7 @@
           "rate": 0.0
         },
         "afternoon": {
-          "n": 18,
+          "n": 19,
           "rate": 0.0
         },
         "night": {
@@ -1129,8 +1129,8 @@
     },
     "A1120796": {
       "name": "이화여자대학교의과대학부속서울병원",
-      "n": 100,
-      "overall_rate": 0.33,
+      "n": 101,
+      "overall_rate": 0.337,
       "buckets": {
         "dawn": {
           "n": 29,
@@ -1141,8 +1141,8 @@
           "rate": 0.091
         },
         "afternoon": {
-          "n": 18,
-          "rate": 0.611
+          "n": 19,
+          "rate": 0.632
         },
         "night": {
           "n": 20,
@@ -1152,8 +1152,8 @@
     },
     "A1121013": {
       "name": "가톨릭대학교은평성모병원",
-      "n": 100,
-      "overall_rate": 0.04,
+      "n": 101,
+      "overall_rate": 0.05,
       "buckets": {
         "dawn": {
           "n": 29,
@@ -1164,8 +1164,8 @@
           "rate": 0.03
         },
         "afternoon": {
-          "n": 18,
-          "rate": 0.167
+          "n": 19,
+          "rate": 0.211
         },
         "night": {
           "n": 20,
@@ -1175,8 +1175,8 @@
     },
     "A1122033": {
       "name": "기쁨병원",
-      "n": 100,
-      "overall_rate": 0.08,
+      "n": 101,
+      "overall_rate": 0.079,
       "buckets": {
         "dawn": {
           "n": 29,
@@ -1187,8 +1187,8 @@
           "rate": 0.03
         },
         "afternoon": {
-          "n": 18,
-          "rate": 0.056
+          "n": 19,
+          "rate": 0.053
         },
         "night": {
           "n": 20,
