@@ -1,15 +1,15 @@
 {
-  "updated_utc": "2026-07-08 00:05",
+  "updated_utc": "2026-07-09 00:19",
   "national_total": 18832946,
   "sample_size": 1500,
   "stay_minutes": {
-    "count": 704,
-    "avg": 14.1,
-    "median": 11.8
+    "count": 856,
+    "avg": 11.3,
+    "median": 9.0
   },
   "severe": {
-    "cardiac_arrest_pct": 1.7,
-    "severe_trauma_pct": 14.5,
-    "severe_symptom_pct": 6.3
+    "cardiac_arrest_pct": 3.1,
+    "severe_trauma_pct": 15.0,
+    "severe_symptom_pct": 8.2
   }
 }
