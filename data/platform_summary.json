@@ -1,15 +1,15 @@
 {
-  "updated_utc": "2026-11-07 00:42",
+  "updated_utc": "2026-11-09 00:37",
   "national_total": null,
   "sample_size": 1500,
   "stay_minutes": {
-    "count": 887,
-    "avg": 12.6,
-    "median": 11.5
+    "count": 907,
+    "avg": 12.7,
+    "median": 11.3
   },
   "severe": {
     "cardiac_arrest_pct": 0.0,
-    "severe_trauma_pct": 13.5,
+    "severe_trauma_pct": 10.9,
     "severe_symptom_pct": 0.0
   }
 }
